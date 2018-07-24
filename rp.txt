@@ -1,4 +1,4 @@
-"arkten_rp"
+"rp"
 {
 	"base"	 "base"
 	"title"	 "Roleplay"
