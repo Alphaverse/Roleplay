@@ -12,7 +12,7 @@ rp.cfg["HUDPaint"] = "Trebuchet24"
 -- Values that are loaded from the client_config.txt
 -- Default values incase file is corrupt/broken/whatever
 rp.cfg["Low Quality Mode"] = rp.cfg["Low Quality Mode"] or false
-rp.cfg["Experimental Mode"] = rp.cfg["First Person Mode"] or false
+rp.cfg["First Person Mode"] = rp.cfg["First Person Mode"] or false
 
 
 rp.cfg["Config Values"] = {}
