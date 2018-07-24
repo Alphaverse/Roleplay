@@ -300,7 +300,7 @@ function GM:CalcView(ply, origin, angles, fov, znear, zfar)
 	local ent
 	local eyes = {}
 
-	-- Experimental Mode (Drawing First Person from the actual eyes)
+	-- First Person Mode (Drawing First Person from the actual eyes)
 	if rp.cfg["First Person Mode"] and ply:Alive() then
 		ent = ply
 	else
@@ -323,7 +323,7 @@ function GM:CalcView(ply, origin, angles, fov, znear, zfar)
 	return self.BaseClass:CalcView(ply, eyes.Pos, eyes.Ang, fov, znear, zfar)
 end
 
--- Draw LocalPlayer if Experimental Mode is on
+-- Draw LocalPlayer if First Person Mode is on
 function GM:ShouldDrawLocalPlayer()
 	return rp.cfg["First Person Mode"]
 end
