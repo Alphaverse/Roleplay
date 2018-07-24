@@ -1,0 +1,12 @@
+"arkten_rp"
+{
+	"base"	 "base"
+	"title"	 "Roleplay"
+	"maps"		""
+	"menusystem"	"1"
+
+	"settings"
+	{
+
+	}
+}
